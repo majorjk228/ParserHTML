@@ -42,7 +42,7 @@ namespace ParserHTML
             var getPath = postRequest.Response.Substring(strStart, strEnd - strStart);
 
             Console.WriteLine(getPath);
-            Console.ReadKey();
+            Console.ReadKey();s
 
             var getRequest = new GetRequest($"https://santehopt-perm.ru/search/?s=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&amp;q={getPath}");
 
